@@ -1,0 +1,19 @@
+{
+  "name": "restifyapi",
+  "version": "1.0.0",
+  "description": "restify api",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.12",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^1.17.2",
+    "restify": "^7.1.0"
+  }
+}
